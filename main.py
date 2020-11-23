@@ -1,5 +1,5 @@
 from selenium import webdriver
-
+import os
 
 for i in range(20000):
     options = webdriver.ChromeOptions()
