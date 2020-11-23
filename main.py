@@ -1,5 +1,4 @@
 from selenium import webdriver
-from time import sleep
 
 
 for i in range(20000):
