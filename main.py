@@ -2,7 +2,7 @@ from selenium import webdriver
 from time import sleep
 
 
-for i in range(10000):
+for i in range(20000):
     options = webdriver.ChromeOptions()
     options.binary_location = os.environ.get('GOOGLE_CHROME_BIN')
     options.add_argument("--incognito")
